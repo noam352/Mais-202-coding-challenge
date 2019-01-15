@@ -7,8 +7,8 @@ MAIS 202 coding challenge
 
 import matplotlib.pyplot as plt
 import numpy as np
-import plotly
-import plotly.graph_objs as go
+import plotly    
+import plotly.graph_objs as go.    ## used at the bottom of the code
 
 
 
