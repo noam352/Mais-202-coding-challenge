@@ -80,13 +80,13 @@ plt.xticks(x,(i for i in purpose_array))
 plt.show()
 
 
-trace = go.Table(
+trace = go.Table(                                                       ## My experience using plotlys library!!!
     header=dict(values=[' ', 'purpose', 'avg_rate']),
     cells=dict(values=[ [i for i in range(len(purpose_array))],
                        purpose_array, average_array],
                align = ['left']
                )
-                 )
+                )
 
 layout = dict(width=500, height=2000)
 data = [trace]
